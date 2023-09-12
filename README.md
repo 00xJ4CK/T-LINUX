@@ -21,7 +21,7 @@ apt-get update -y
 apt-get upgrade -y
 apt-get install git -y
 git clone https://github.com/00xJ4CK/T-LINUX.git/
-cd LinuxX
+cd T-LINUX
 chmod +x setup.sh
 ./setup.sh
 ```
@@ -30,7 +30,7 @@ chmod +x setup.sh
 ## Single Line Installation
 
 ```
-apt-get update -y;apt-get upgrade -y;apt install git -y;git clone https://github.com/00xJ4CK/T-LINUX.git;cd LinuxX;chmod +x setup.sh;./setup.sh
+apt-get update -y;apt-get upgrade -y;apt install git -y;git clone https://github.com/00xJ4CK/T-LINUX.git;cd T-LINUX;chmod +x setup.sh;./setup.sh
 ```
 + Now setup in completed so you can launch by typing `T-LINUX` in your Termux
 
