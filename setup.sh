@@ -9,7 +9,7 @@ apt-get install proot -y
 apt-get install proot-distro -y
 rm -rf /data/data/com.termux/files/T-LINUX
 mkdir /data/data/com.termux/files/T-LINUX
-mv img linuxx.py /data/data/com.termux/files/T-LINUX
+mv T-LINUX.py /data/data/com.termux/files/T-LINUX
 touch T-LINUX
 echo 'python3 /data/data/com.termux/files/T-LINUX/T-LINUX.py' > T-LINUX
 chmod +x T-LINUX
